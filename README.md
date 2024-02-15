@@ -22,10 +22,12 @@ Messages from the emergency vehicle
 
 
 ![image](https://github.com/Utkarsh-03/Alert.AI/assets/111451556/bcdd7c62-8c15-414a-81c0-c1238ff1f3cd)
+
+
 Agentverse view of emergency vehicle agent
 
 ![image](https://github.com/Utkarsh-03/Alert.AI/assets/111451556/78e83f25-cb56-4d5c-bd9b-82fca59650f4)
-Coorddinates of general vehicle
+Coordinates of general vehicle
 
 ![image](https://github.com/Utkarsh-03/Alert.AI/assets/111451556/b4553684-22a0-4693-91f4-ce5620719652)
 Notification recieved at the general vehicle end
