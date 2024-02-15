@@ -14,7 +14,7 @@ Alert.AI uses a decentralised system connecting emergency and general vehicles. 
 8. you can create as many general_vehicle as you want 
 9. run all the devices syncronously 
 # Video
-Video url: 
+Video url: https://drive.google.com/file/d/1bkg3nh4ao0ijo5bPgNnpGZ-bp_J_xGEt/view?usp=sharing
 # Project preview:
 
 
