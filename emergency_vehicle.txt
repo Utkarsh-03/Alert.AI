@@ -8,7 +8,7 @@ global coordinate ,co
 
 async def send(ctx: Context):
     coordinate = ctx.storage.get("count") or 1000
-    # await ctx.send('agent1qta8q8vvtchuemuasx7x9dxluqvtn33hjj0s7s46sex5mzmrdzx6j8vn9sp', Request(message=coordinate))
+    # await ctx.send('agent_address_of_general_vehicle_here', Request(message=coordinate))
     ctx.logger.info(f"coordinate of emergency vehicle is: {coordinate}")
     ctx.storage.set("count" , coordinate + 200)    
 
@@ -23,7 +23,7 @@ async def handle_message(ctx: Context, sender: str, msg: Request):
         ctx.storage.set("c" , co)
         c= ctx.storage.get("c")
         if(c<1):
-            response = requests.get("https://e4fe-182-79-215-75.ngrok-free.app/notify/+910000000000")  #add the mobile number in place of 0000000000
+            response = requests.get("hosted_api_endpoint/notify/your_number_here")  #add the mobile number here
             ctx.storage.set("c",c+1)
         
 
