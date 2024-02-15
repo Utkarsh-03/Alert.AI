@@ -16,8 +16,10 @@ Python 3.9
 9. you can create as many general_vehicle as you want 
 10. run all the devices synchronously 
 # Video
-Video url: https://drive.google.com/file/d/1bkg3nh4ao0ijo5bPgNnpGZ-bp_J_xGEt/view?usp=sharing
+Video url: https://drive.google.com/file/d/1VlbVsa11ahmUSbcJ902bn7cAZqmzACUM/view?usp=sharing
 # Project preview:
+![image](https://github.com/Utkarsh-03/Alert.AI/assets/111451556/bcdd7c62-8c15-414a-81c0-c1238ff1f3cd)
+
 
 
 
