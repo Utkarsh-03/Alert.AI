@@ -4,14 +4,14 @@ from flask import Flask,request
 app = Flask(__name__)
 @app.route('/notify/<name>', methods= ['GET'])
 def ff(name):
-    account_sid = 'AC3f684a96d47e1ae054d3ec9bc43439d4'
-    auth_token = '9c0543e7a44900af4c0d7f4f3b2ae520'
+    account_sid = 'your_account_sid_twilio'
+    auth_token = 'auth_token_twilio'
     client = Client(account_sid, auth_token)
     print(name)
     ok = 'whatsapp:' +name
     print(ok)
     message = client.messages.create(
-    from_='whatsapp:+14155238886',
+    from_='whatsapp:your_twilio_number',
     body = 'Jaldi waha se hato!! please give side to the emergency vehicle behind you',
     to=ok
     )
@@ -29,8 +29,8 @@ def webhook():
     # Prepare a response
     response_msg = "Received your message: " + incoming_msg
     print(incoming_msg)
-    account_sid = 'AC3f684a96d47e1ae054d3ec9bc43439d4'
-    auth_token = '9c0543e7a44900af4c0d7f4f3b2ae520'
+    account_sid = 'your_account_sid_twilio'
+    auth_token = 'auth_token_twilio'
     client = Client(account_sid, auth_token)
     # Send a response
     if incoming_msg == "start":
@@ -40,7 +40,7 @@ def webhook():
         mssg = "enter valid keyword"
     client.messages.create(
         body=mssg,
-        from_='whatsapp:+14155238886',
+        from_='whatsapp:your_twilio_number',
         to=sender_number
     )
     return '', 200
