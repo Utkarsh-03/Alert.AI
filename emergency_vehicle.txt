@@ -23,7 +23,7 @@ async def handle_message(ctx: Context, sender: str, msg: Request):
         ctx.storage.set("c" , co)
         c= ctx.storage.get("c")
         if(c<1):
-            response = requests.get("https://e4fe-182-79-215-75.ngrok-free.app/notify/+910000000000")
+            response = requests.get("https://e4fe-182-79-215-75.ngrok-free.app/notify/+910000000000")  #add the mobile number in place of 0000000000
             ctx.storage.set("c",c+1)
         
 
