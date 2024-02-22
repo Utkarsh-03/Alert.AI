@@ -8,7 +8,7 @@ Python 3.9
 1. Clone Repository: https://github.com/Utkarsh-03/Alert.AI 
 2. Go to Agentverse: https://agentverse.ai/
 3. install requirements.txt
-4. Go to My Agents Section
+4. Go to My Agents Section on the agentverse account
 5. Create new Agent from device 1
 6. open the emergency_vehicle.txt code in the agent
 7. Similarly create new agent in device 2 
